@@ -170,6 +170,7 @@ Slides - Backgrounds <section class="bg-primary">
 .bg-white {
   background-color: #fff;
 }
+
 [class*="bg-"] .bg-white {
   text-shadow: none;
   color: #333;
@@ -934,4 +935,9 @@ Ajustes
 
 .flex-content h2 {
     color: rgb(255, 74, 107);
+}
+
+.bg-pink {
+    background-color: rgb(255, 74, 107);
+    color: #f7f9fb;
 }
