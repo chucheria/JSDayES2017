@@ -1,0 +1,51 @@
+{
+	"humansTXT": {
+		"src": "_source/humans.txt",
+		"dest": "./"
+	},
+	"styles": {
+		"src": "_source/scss/*.s*ss",
+		"dest": "assets/css"
+	},
+	"plugins": {
+		"src": [
+			"_source/js/plugins/_plugins.js",
+			"_source/js/plugins/d3.min.js",
+			"_source/js/plugins/slick.min.js"
+		],
+		"dest": "assets/js/"
+	},
+	"scripts": {
+		"src": [
+			"_source/js/_sn.js",
+			"_source/js/_sn.cache.js",
+			"_source/js/_sn.externallinks.js",
+			"_source/js/_sn.snl.js",
+			"_source/js/_sn.box.js",
+			"_source/js/_sn.people.js",
+			"_source/js/_sn.slides.js",
+			"_source/js/main.js"
+		],
+		"dest": "assets/js/"
+	},
+	"watch": {
+		"images": [
+			"assets/img/**/*.{gif,jpg,jpeg,png,svg}"
+		],
+		"vendorJS": [
+			"assets/js/vendor/*.js"
+		],
+		"humansTXT": [
+			"_source/humans.txt"
+		],
+		"scripts": [
+			"_source/js/**/*.js"
+		],
+		"styles": [
+			"_source/scss/**/*.{scss,sass,css}"
+		],
+		"html": [
+			"**/*.html"
+		]
+	}
+}
